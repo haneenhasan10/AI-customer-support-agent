@@ -1,0 +1,4 @@
+Payment methods: Visa, Mastercard, Apple Pay
+Refund policy: refunds within 5 days
+Shipping: 2-3 business days
+Support email: support@example.com
