@@ -1,16 +1,49 @@
 # AI-customer-support-agent
 
 
-A simple AI-powered customer support agent that answers user questions using a predefined knowledge base and a local LLM. The agent reads information from a knowledge file and uses an LLM to generate helpful responses for customer support queries.
+AI Support Agent
+A lightweight, local AI customer support assistant built with Streamlit, LangChain, and Ollama. This agent uses a local knowledge base to provide specific answers to customer inquiries.
+
+
+Features:
+
+ -Local LLM: llama3 via Ollama.
+
+ -Knowledge-Based: Restricts answers to information provided in knowledge.txt.
+
+ -Memory: Maintains conversation history during the session using   StreamlitChatMessageHistory.
+
+ -Streamlit UI: A clean, chat-based interface for easy interaction.
+
 
 
 Workflow:
 
-User Question → Knowledge Base → LLM → Response
+User Input → Streamlit UI → LangChain Orchestrator → System Prompt + Knowledge Base → Chat History  → Ollama→ AI Response → Streamlit UI (Display)
 
-Tech Stack:
 
-- Python
-- LangChain
-- Ollama
-- Llama3
+
+Prerequisites:
+
+ -Ollama: Install from ollama.com
+
+ -Model: Pull the Llama 3 model:
+ 
+
+
+Bash:
+
+pip install streamlit langchain langchain-community langchain-core
+
+
+File Structure:
+
+agent.py: The main application logic and UI.
+
+knowledge.txt: A text file containing the data the AI uses to answer questions.
+
+
+How to Run:
+
+Bash
+streamlit run agent.py
