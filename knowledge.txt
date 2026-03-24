@@ -1,4 +1,38 @@
-Payment methods: Visa, Mastercard, Apple Pay
-Refund policy: refunds within 5 days
-Shipping: 2-3 business days
-Support email: support@example.com
+Haneen Company - Official Knowledge Base
+
+1. About Haneen Company:
+Haneen Company is a specialized provider of Artificial Intelligence solutions and tech gadgets. We aim to integrate AI into daily life through high-quality products and excellent technical support. Our office operates from Sunday to Thursday, 9:00 AM to 5:00 PM.
+
+2. Payment Information:
+We prioritize secure transactions. Customers can pay using the following methods:
+
+Credit/Debit Cards: Visa and Mastercard are accepted.
+
+Digital Wallets: Apple Pay is fully supported for mobile checkout.
+
+Note: We do NOT accept Cash on Delivery (COD) or manual Bank Transfers to ensure automated order processing.
+
+3. Shipping & Delivery:
+Our logistics team works hard to ensure fast delivery:
+
+Standard Shipping: Takes 2 to 3 business days for major cities.
+
+Extended Areas: May take up to 5 business days.
+
+Tracking: A tracking number is sent via email once the order is dispatched.
+
+4. Refund & Return Policy:
+We offer a strict but fair refund policy to maintain service quality:
+
+Time Limit: Refunds or exchanges are only available within 5 days of the purchase date.
+
+Condition: Items must be in their original packaging and unused.
+
+Late Requests: Any request made after 5 days (e.g., 6 or 10 days) will be automatically rejected.
+
+5. Technical Support:
+For any inquiries regarding AI product configuration, order issues, or general help:
+
+Email: Contact us at support@haneen.com.
+
+Response Time: We usually respond within 24 hours during business days.
