@@ -12,7 +12,8 @@ st.title('AI support agent')
 msgs = StreamlitChatMessageHistory(key = 'special_app_key')
 
 # load the model  
-llm = Ollama(model = 'llama3')
+llm = Ollama(model = 'llama3',
+             base_url="http://host.docker.internal:11434")
 
 with open("knowledge.txt", "r") as f:
     knowledge_base = f.read()
