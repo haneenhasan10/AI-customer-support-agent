@@ -23,18 +23,6 @@ User Input → Streamlit UI → LangChain Orchestrator → System Prompt + Knowl
 
 
 
-Prerequisites:
-
- -Ollama: Install from ollama.com
-
- -Model: Pull the Llama 3 model:
- 
-
-
-Bash:
-
-pip install streamlit langchain langchain-community langchain-core
-
 
 File Structure:
 
@@ -42,8 +30,3 @@ agent.py: The main application logic and UI.
 
 knowledge.txt: A text file containing the data the AI uses to answer questions.
 
-
-How to Run:
-
-Bash
-streamlit run agent.py
