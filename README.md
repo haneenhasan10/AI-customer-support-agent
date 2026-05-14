@@ -1,32 +1,31 @@
 # AI-customer-support-agent
 
 
-AI Support Agent
-A lightweight, local AI customer support assistant built with Streamlit, LangChain, and Ollama. This agent uses a local knowledge base to provide specific answers to customer inquiries.
-
-
-Features:
-
- -Local LLM: llama3 via Ollama.
-
- -Knowledge-Based: Restricts answers to information provided in knowledge.txt.
-
- -Memory: Maintains conversation history during the session using   StreamlitChatMessageHistory.
-
- -Streamlit UI: A clean, chat-based interface for easy interaction.
+AI customer support assistant built with Streamlit, LangChain, and Ollama. The  application is containerized using **Docker** for consistent environment deployment.
 
 
 
-Workflow:
+## Features
+* **Strict Context Enforcement:** The agent strictly answers based on the provided `knowledge.txt` and refuses to hallucinate or talk out of scope.
+* **Session Memory:** Retains conversation history during the user session using `StreamlitChatMessageHistory`.
+* **Dockerized Environment:** Isolated and clean setup, eliminating the "it works on my machine" issue.
+* **Local LLM Integration:** Communicates seamlessly from inside the Docker container to the host machine's Ollama instance.
 
-User Input → Streamlit UI → LangChain Orchestrator → System Prompt + Knowledge Base → Chat History  → Ollama→ AI Response → Streamlit UI (Display)
+---
 
+## Tech Stack
+* **Frontend:** Streamlit
+* **LLM Orchestration:** LangChain (Core & Community)
+* **Local LLM Server:** Ollama (Llama 3)
+* **Containerization:** Docker
 
+---
 
-
-File Structure:
-
-agent.py: The main application logic and UI.
-
-knowledge.txt: A text file containing the data the AI uses to answer questions.
+##  Project Structure
+```text
+├── agent.py              # Main application logic & Streamlit UI
+├── Dockerfile            # Docker configuration recipe
+├── requirements.txt      # Python dependencies
+├── knowledge.txt         # The company's official knowledge base
+└── README.md             # Project documentation
 
