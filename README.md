@@ -8,7 +8,7 @@ AI customer support assistant built with Streamlit, LangChain, and Ollama. The  
 ## Features
 * **Strict Context Enforcement:** The agent strictly answers based on the provided `knowledge.txt` and refuses to hallucinate or talk out of scope.
 * **Session Memory:** Retains conversation history during the user session using `StreamlitChatMessageHistory`.
-* **Dockerized Environment:** Isolated and clean setup, eliminating the "it works on my machine" issue.
+* **Dockerized Environment:** Isolated and clean setup.
 * **Local LLM Integration:** Communicates seamlessly from inside the Docker container to the host machine's Ollama instance.
 
 ---
