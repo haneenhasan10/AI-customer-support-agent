@@ -1,7 +1,7 @@
 # AI-customer-support-agent
 
 
-AI customer support assistant built with Streamlit, LangChain, and Ollama. The  application is containerized using **Docker** for consistent environment deployment.
+AI customer support assistant built with Streamlit, LangChain, and Ollama. The  application is containerized using Docker for consistent environment deployment.
 
 
 
